@@ -1,0 +1,135 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(31, 41, 55);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.images {
+  width: 25%;
+}
+
+.image-item {
+  margin-bottom: 1rem;
+}
+
+.image-item img {
+  width: 100%;
+}
+
+.icon-container {
+  text-align: center;
+  color: rgb(75, 85, 99);
+}
+
+.details {
+  width: 75%;
+  padding-left: 2rem;
+}
+
+.details h1 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.breadcrumbs {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  color: rgb(37, 99, 235);
+}
+
+.breadcrumbs a {
+  text-decoration: underline;
+}
+
+.price {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.old-price {
+  color: rgb(156, 163, 175);
+  text-decoration: line-through;
+}
+
+.current-price {
+  color: rgb(31, 41, 55);
+}
+
+.discount-price {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: rgb(220, 38, 38);
+}
+
+.promo {
+  color: rgb(75, 85, 99);
+}
+
+.availability {
+  margin-bottom: 1rem;
+  background-color: rgb(243, 244, 246);
+  padding: 1rem;
+}
+
+.availability-item {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.availability-item i {
+  margin-right: 0.5rem;
+}
+
+.availability-item a {
+  color: rgb(37, 99, 235);
+  text-decoration: underline;
+}
+
+.buttons {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.shop-btn {
+  border-radius: 0.25rem;
+  background-color: rgb(37, 99, 235);
+  padding: 0.5rem 1rem;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.wishlist-btn {
+  border-radius: 0.25rem;
+  border: 1px solid rgb(156, 163, 175);
+  padding: 0.5rem 1rem;
+  color: rgb(31, 41, 55);
+  background-color: transparent;
+}
+
+.share {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.share span {
+  margin-right: 0.5rem;
+}
+
+.share a {
+  color: rgb(37, 99, 235);
+  font-size: 1.5rem;
+}
