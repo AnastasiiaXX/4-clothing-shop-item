@@ -1,0 +1,40 @@
+.product__gallery {
+  display: flex;
+  width: 60%;
+}
+
+.product__preview {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  min-width: 90px;
+}
+
+.product__preview--photo {
+  width: 90px;
+}
+
+.product__preview--photo:not(:first-child) {
+  margin-top: 40px;
+}
+
+.product__preview--next-image{
+  margin: 40px auto 0 auto;
+  border: 1px solid #d9d9d9;
+  padding: 5px 5px;
+  width: 50px;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.product__main {
+  width: 90%;
+  min-width: 350px;
+  margin: 0px 120px;
+}
+
+.product__main--photo{
+  margin: auto;
+  width: 100%;
+  height: auto;
+}

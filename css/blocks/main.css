@@ -1,5 +1,8 @@
-@import url('./_fonts.css');
-
+@import url('../../vendor/fonts/circe/_fonts.css');
+@import url('../blocks/buttons.css');
+@import url('../blocks/product/gallery.css');
+@import url('../blocks/product/description.css');
+@import url('../blocks/categories/categories.css');
 
 html {
   font-size: 62.5%;
@@ -17,60 +20,17 @@ a {
   text-decoration: none;
   font-weight: 400;
 }
+
 a:hover {
   color: #003a7c;
 }
 
-/*
-==================================
-            header
-==================================
-*/
-
-header {
-  background-color: #262626;
-  height: 70px;
-  margin: 0;
-  padding: 0;
-  height: 70px;
-}
-header * {
-  color: #FFF;
+.layout {
+  max-width: 1170px;
+  margin: auto;
 }
 
-.container__header {
+.product {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-.logo {
-  padding-top:15px;
-}
-.logo a{
-  color: #fff;
-  font-weight: 700;
-  font-size: 35px;
-  align-items: center;
-}
-.logo a:hover {
-  color: #fff;
-}
-.to-feedback {
-  float: right;
-  /*margin-top: 32px;*/
-}
-.to-feedback:hover {
-  color: #fff;
-}
-
-/*
-==================================
-            footer
-==================================
-*/
-footer {
   margin-top: 40px;
-  height: 150px;
-  background-color: #262626;
 }

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Circe";
+  src: url("circe_300.woff2") format("woff2"),
+       url("circe_300.woff") format("woff"),
+       url("circe_300.ttf") format("ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Circe";
+  src: url("circe_600.woff2") format("woff2"),
+       url("circe_600.woff") format("woff"),
+       url("circe_600.ttf") format("ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Circe";
+  src: url("circe_700.woff2") format("woff2"),
+       url("circe_700.woff") format("woff"),
+       url("circe_700.ttf") format("ttf");
+  font-weight: 700;
+}
